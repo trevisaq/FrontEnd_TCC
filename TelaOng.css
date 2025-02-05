@@ -55,7 +55,7 @@ header .slogan{
 .titulo{
     margin-top: 30px;
     font-size: 50px;
-    color: var(--azulEscuro);   
+    color: var(--azulEscuro);  
 }
 
 .titulo2{
@@ -71,10 +71,10 @@ header .slogan{
     margin: 50px;
     display: flex;
     flex-direction: row;
-    
 }
 
 .meta .imgprincipal{
+    width: 800px;
     border-radius: 14px;
     border-radius: 10px;  /* Bordas arredondadas */
     overflow: hidden;  /* Para esconder as partes arredondadas da imagem */
@@ -99,12 +99,13 @@ header .slogan{
     font-size: 25px;
     color: var(--begeClaro);
     background-color: var(--verdeNeon);
-    box-shadow: -5px 10px 5px rgba(0, 0, 0, 0.062);
+    box-shadow: 0px 0px 0px rgb(255, 255, 255);
     transition: transform 0.3s ease, box-shadow 0.3s ease;     
 }
 
 .buttoneinfo button:hover{
-    transform: scale(1.09); /* O botão cresce 20% */
+    box-shadow: 10px 10px 20px rgb(217, 255, 212);
+    transform: scale(1.06); /* O botão cresce 20% */
 }
 
 .infometa{
@@ -119,6 +120,10 @@ header .slogan{
 
 .infometa h1, .infometa h2{
     color: var(--azulEscuro);
+}
+
+.infometa h1{
+    margin-top: 10px;
 }
 
 .infometa .metainicial{
