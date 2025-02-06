@@ -247,11 +247,11 @@ header .slogan{
 }
 
 .local{
-    background-image: url(./assetstr/icons/location_icon.png);
+    background-image: url(../assetstr/icons/location_icon.png);
 }
 
 .data{
-    background-image: url(./assetstr/icons/date_icon.png);
+    background-image: url(../assetstr/icons/date_icon.png);
 }
 
 .sobre_ong{
