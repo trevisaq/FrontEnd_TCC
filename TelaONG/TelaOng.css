@@ -260,11 +260,14 @@ header .slogan{
     justify-content: space-around;
 }
 
-.sobre_ong h2{
+.sobre_ong p{
+    font-size: 25px;
     color: var(--azul);
     width: 700px;
     text-align:start;
     user-select: none;
+    line-height: 40px;
+    letter-spacing: 1px;
 }
 
 .sobre_ong_img{
