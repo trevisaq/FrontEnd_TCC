@@ -2,7 +2,6 @@
 
 Olá, este é meu meu repositório onde guardo minha parte do trabalho de html e css no meu trabalho do tcc
 
----
 
 ## Sobre
 
