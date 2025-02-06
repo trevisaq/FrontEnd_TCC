@@ -108,10 +108,16 @@ select option{
     margin: 20px;
     font-size: 50px;
     color: var(--azulEscuro);  
-}   
+    transition: all 400ms;
+}  
+
+.titulo:hover, .titulo2:hover{
+    transform: translateY(-6px);
+}
 
 
 .titulo2{
+    transition: all 400ms;
     margin-top: 60px;
     margin-left: 120px;
     margin-bottom: 60px;

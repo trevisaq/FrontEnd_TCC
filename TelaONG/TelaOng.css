@@ -56,6 +56,11 @@ header .slogan{
     margin-top: 30px;
     font-size: 50px;
     color: var(--azulEscuro);  
+    transition: all 400ms;
+}
+
+.titulo:hover{
+    transform:translateY(-5px);
 }
 
 .titulo2{
