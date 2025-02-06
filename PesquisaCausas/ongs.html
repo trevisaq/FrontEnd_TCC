@@ -4,16 +4,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="TelaOng.css">
-  <link rel="icon" type="image/png" href="./assetstr/icons/iconsite.png">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="ongs.css">
+  <link rel="icon" type="image/png" href="../assetstr/icons/iconsite.png">
   <title>Tela Ong</title>
 </head>
 
 <body>
   <header>
     <main>
-      <img src="./assetstr/icons/logoheader.png" alt="logo" />
+      <img src="../assetstr/icons/logoheader.png" alt="logo" />
       <nav>
         <a href="#">Cadastre sua ONG</a>
         <a href="#">Seja um doador</a>
@@ -22,41 +22,29 @@
     <div class="slogan">
     </div>
   </header>
-  <div class="meta">
-    <h1 class="titulo">Pata amiga</h1>
-    <p>Criado por Camilly e Pedro Henrique</p>
-    <div class="meta-img">
-      <img src="./assetstr/dog.jpg" class="imgprincipal">
-      <div class="buttoneinfo">
-        <div class="infometa">
-          <h1>R$ 14.000</h1>
-          <p>Apoiado por mais de <b>8.000</b> pessoas</p>
-          <div class="metas">
-            <div class="grafico">
-              <div class="total"></div>
-            </div>
-            <div class="legenda">
-              <p><b>112%</b> da meta alcançado%</p>
-              <p><b>10</b> dias restantes</p>
-            </div>
-            <div class="textometa">
-              <h2>Meta inicial de</h2>
-              <h1 class="metainicial">R$ 12.500</h1>
-            </div>
-          </div>
-        </div>
-        <form>
-          <button>Apoiar ONG</button>
-        </form>
-      </div>
-    </div>
+  <div class="pesquisa">
+    <h1 class="titulo">Eventos</h1>
+    <form>
+        <label for="#"></label>
+        <input class="input-pesquisa" type="search" id="#" name="#" placeholder="Pesquise por uma ong">
+        <select class="select-pesquisa" id="categoria" name="categoria">
+            <form action="">
+                <option value="" disabled selected>Selecione uma causa</option>
+                <option value="direitos">Direitos Humanos e Sociais</option>
+                <option value="ambiente">Meio Ambiente</option>
+                <option value="saude">Saúde e Bem-Estar</option>
+                <option value="educacao">Educação e Cultura</option>
+                <option value="cultura">Proteção Animal</option>
+            </form>
+        </select>
+    </form>
   </div>
   <div class="eventos">
-    <h1 class="titulo2">Eventos Registrados</h1>
+    <h1 class="titulo2">Proteção Animal</h1>
     <div class="cards">
       <div class="card">
         <div class="img">
-          <img src="./assetstr/cards/bazar.png" alt="" />
+          <img src="../assetstr/cards/bazar.png" alt="" />
         </div>
         <h1 class="titulo-card">Bazar Solidário</h1>
         <p>
@@ -75,7 +63,7 @@
       </div>
       <div class="card">
         <div class="img">
-          <img src="./assetstr/cards/doacaocomida.png" alt="" />
+          <img src="../assetstr/cards/doacaocomida.png" alt="" />
         </div>
         <h1 class="titulo-card">Doação de Comida</h1>
         <p>
@@ -94,7 +82,7 @@
       </div>
       <div class="card">
         <div class="img">
-          <img src="./assetstr/cards/feiraadocao.png" alt="" />
+          <img src="../assetstr/cards/feiraadocao.png" alt="" />
         </div>
         <h1 class="titulo-card">Feira de Adoção</h1>
         <p>
@@ -110,25 +98,6 @@
           <h2>Marcar Presença</h2>
         </div>
       </div>
-    </div>
-    <h1 class="titulo2">Sobre Nós</h1>
-    <div class="sobre_ong">
-      <h2>Somos uma ONG dedicada ao resgate,
-        cuidado e promoção da adoção responsável
-        de cachorros abandonados. Nosso trabalho
-        vai além do resgate: oferecemos serviços
-        essenciais de castração, vacinação e
-        acompanhamento veterinário para garantir
-        o bem-estar e a saúde dos animais. Com a
-        ajuda de voluntários, parceiros e doações,
-        conseguimos dar a esses animais a chance de
-        um novo começo e um futuro cheio de amor e
-        cuidado. Junte-se a nós nessa missão de
-        transformar vidas e proporcionar a esses cães
-        uma nova oportunidade de felicidade. Com sua ajuda,
-        podemos continuar a mudar o mundo, um animal de cada vez!
-      </h2>
-      <img src="./assetstr/sobreong.png" class="sobre_ong_img">
     </div>
   </div>
 
@@ -152,7 +121,7 @@
     </div>
     <div class="logo">
       <p>Conectando corações</p>
-      <img src="./assetstr/icons/logofooter.png" alt="logo">
+      <img src="../assetstr/icons/logofooter.png" alt="logo">
       <p>transformando vidas</p>
     </div>
   </footer>
