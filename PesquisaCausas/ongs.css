@@ -22,12 +22,16 @@ header nav{
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: 80px;
+    gap: 50px;
 }
 header nav a{
     color: var(--offWhite);
     font-size: 20px;
     font-weight: 500;
+}
+header p{
+    color: var(--verdeClaro);
+    font-size: 20px;
 }
 header .slogan{
     background-color: var(--verdeClaro);
@@ -36,6 +40,12 @@ header .slogan{
     text-align: center;
     color: var(--verdeEscuro);
 }
+
+.foto{
+    width: 80px;
+
+}
+
 .pesquisa{
     margin-top: 20px;
     display: flex;
