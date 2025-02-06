@@ -17,6 +17,7 @@ header main{
     width: 100%;
     background-color: var(--verde);
     padding: 5px 60px;
+    height: 127px;
 }
 header nav{
     display: flex;
