@@ -236,6 +236,8 @@ select option{
     transform: scale(1.06);
 }
 
+/* - - - - - - - - - - - - - Rodapé - - - - - - - - - - - - - */
+
 footer {
   display: flex;
   align-items: center;
