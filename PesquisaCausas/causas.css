@@ -292,3 +292,202 @@ footer .links div a{
   text-decoration: none;
   color: var(--offWhite);
 }
+
+@media (max-width:1024px) {
+
+    .titulo {
+        font-size: 45px;
+    }
+
+    .titulo2 {
+        font-size: 40px;
+    }
+
+
+    .card {
+        background-color: var(--begeClaro);
+        border-radius: 20px;
+        height: 400px;
+        width: 300px;
+        border-radius: 20px 20px 20px 20px;
+    }
+
+    .card p {
+        width: 260px;
+        color: var(--azulEscuro);
+        font-size: 15px;
+        margin: 0px
+    }
+
+    .card img {
+        border-radius: 20px 20px 0px 0px;
+        width: 100%;
+    }
+
+    .titulo-card {
+        font-size: 28px;
+    }
+
+    .card-bottom {
+
+        background-color: var(--bege);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0px 0px 20px 20px;
+        transition: all 300ms ease;
+        color: var(--azulEscuro);
+    }
+
+    .card_icons {
+        width: 80%;
+        margin: 8px auto;
+    }
+
+    .card_icons p {
+        width: 80%;
+        font-size: 14px;
+    }
+
+    .local,
+    .data {
+        background-size: 20px 20px;
+        background-repeat: no-repeat;
+        background-position: left center;
+        padding-left: 20px;
+        color: rgb(130, 130, 130);
+    }
+
+    /* - - - - - - - - - - - - - - - - - - - - - - - - FOOTER - - - - - - - - - - - - - - - - - - - - - - - - */ 
+
+    footer .logo {
+        display: flex;
+        width: 80%;
+        padding-top: 40px;
+        margin-top: 40px;
+        gap: 10px;
+    }
+
+    footer .logo p {
+        font-size: 35px;
+        text-align: center;
+    }
+    footer .links div a {
+        font-size: 20px;
+    }
+
+    
+}
+
+@media (max-width:768px) {
+
+    .input-pesquisa{
+        color: var(--verdeClaro);
+        font-size: 18px;
+        text-align: start;
+        width: 400px;
+        height: 50px;
+        border: 0px;
+        border-radius: 8px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.09);
+        padding-left: 48px;
+    }
+
+    .pesquisa{
+        margin-top: 0px;
+    }
+
+    .titulo {
+        font-size: 35px;
+    }
+
+    .titulo2 {
+        font-size: 30px;
+        margin-top: 40px;
+        margin-left: 50px;
+        margin-bottom: 40px;
+    }
+
+    .card {
+        background-color: var(--begeClaro);
+        border-radius: 20px;
+        height: auto;
+        max-width: 230px;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    .card p {
+        width: 200px;
+        color: var(--azulEscuro);
+        font-size: 12px;
+        margin: 5px
+    }
+
+    .card img {
+        border-radius: 10px 10px 0px 0px;
+        width: 100%;
+    }
+
+    .titulo-card {
+        font-size: 20px;
+    }
+
+    .card-bottom {
+        border-radius: 0px 0px 10px 10px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .card-bottom h2 {
+        font-size: 20px;
+        margin: 14px 0px 14px 0px;
+    }
+
+    .card_icons {
+        width: 80%;
+        margin: 2px auto;
+    }
+
+    .card_icons p {
+        width: 80%;
+        font-size: 10px;
+    }
+
+    .local,.data {
+        background-size: 18px 18px;
+        background-repeat: no-repeat;
+        background-position: left center;
+        padding-left: 20px;
+        color: rgb(130, 130, 130);
+    }
+
+     /* - - - - - - - - - - - - - - - - - - - - - - - - FOOTER - - - - - - - - - - - - - - - - - - - - - - - - */ 
+
+     footer {            
+        margin-top: 80px;
+        padding: 15px;
+    }
+    footer .logo {
+        width: 80%;
+        padding-top: 40px;
+        margin-top: 40px;
+        gap: 10px;
+    }
+    footer .logo p {
+        font-size: 30px;
+    }
+    .link_title{
+        font-weight: 600;
+        font-size: 20px;
+        color: var(--offWhite);
+    }
+    footer .links div a {
+            font-size: 20px;
+            font-family: 'Montserrat-Light';
+            text-decoration: none;
+            color: var(--offWhite);
+    }
+    
+}
