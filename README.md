@@ -1,6 +1,6 @@
 # TCC - Causa viva (FRONT-END)
 
-Olá, este é meu meu repositório onde guardo minha parte do trabalho de html e css no meu trabalho do tcc
+Olá, este é meu meu repositório onde guardo minha parte do trabalho de html e css no meu trabalho do tcc na escola SENAI Shunji Nishimura (928)
 
 
 ## Sobre
