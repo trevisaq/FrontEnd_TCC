@@ -50,7 +50,6 @@ header .slogan {
     width: 80px;
     transition: transform 0.4s ease-in-out;
     cursor: pointer;
-
 }
 
 .foto:hover {
@@ -70,25 +69,18 @@ header .slogan {
     text-align: start;
     width: 500px;
     height: 50px;
-    border: 0px;
+    border: 0;
     border-radius: 8px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.09);
     padding-left: 48px;
-}
-
-.input-pesquisa {
     background-image: url('../assetstr/icons/Search_alt.png');
-    /* Caminho para a imagem do ícone */
     background-position: 8px center;
-    /* Posiciona o ícone à esquerda */
     background-repeat: no-repeat;
 }
 
 input[type="search"]::-webkit-search-cancel-button {
     -webkit-appearance: none;
-    /* Remove o ícone no Chrome/Safari */
     display: none;
-    /* Remove o ícone */
 }
 
 .input-pesquisa:focus {
@@ -104,11 +96,10 @@ input[type="search"]::-webkit-search-cancel-button {
     text-align: center;
     width: 240px;
     height: 50px;
-    border: 0px;
+    border: 0;
     border-radius: 8px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.09);
     color: var(--verdeClaro);
-
 }
 
 select option {
@@ -127,7 +118,6 @@ select option {
     transform: translateY(-6px);
 }
 
-
 .titulo2 {
     transition: all 400ms;
     margin-top: 60px;
@@ -138,41 +128,22 @@ select option {
 }
 
 .eventos {
-    width: 100%
+    width: 100%;
 }
 
 .cards {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .card {
     background-color: var(--begeClaro);
     border-radius: 20px;
-    height: 480px;
-    border-radius: 20px 20px 20px 20px;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.card p {
-    display: flex;
-    width: 350px;
-    display: flex;
-    text-align: center;
-    color: var(--azulEscuro);
-    margin: 5px
-}
-
-.card img {
-    border-radius: 20px 20px 0px 0px;
-    width: 400px;
-}
-
-.titulo-card {
-    color: var(--azulEscuro);
-    font-size: 35px;
 }
 
 .card-bottom {
@@ -188,11 +159,33 @@ select option {
     color: var(--azulEscuro);
 }
 
+.card-bottom h2 {
+    font-size: 30px;
+    margin: 20px
+}
+
 .card-bottom:hover {
     background-color: var(--azulClaro);
     color: var(--begeClaro);
     cursor: pointer;
     user-select: none;
+}
+
+.card p {
+    width: 350px;
+    text-align: center;
+    color: var(--azulEscuro);
+    margin: 5px;
+}
+
+.card img {
+    border-radius: 20px 20px 0 0;
+    width: 400px;
+}
+
+.titulo-card {
+    color: var(--azulEscuro);
+    font-size: 35px;
 }
 
 .card_icons {
@@ -211,12 +204,9 @@ select option {
 .data {
     width: 50px;
     background-size: 20px 20px;
-    /* Tamanho do ícone */
     background-repeat: no-repeat;
     background-position: left center;
-    /* Posição do ícone à esquerda */
-    padding-left: 30px;
-    /* Espaço para o ícone não se sobrepor ao texto */
+    padding-left: 10px;
     color: rgb(130, 130, 130);
 }
 
@@ -244,20 +234,19 @@ select option {
 .sobre_ong_img {
     width: 800px;
     overflow: hidden;
-    /* Para esconder as partes arredondadas da imagem */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    /* Sombra sutil */
     transition: all 0.3s ease;
     border-radius: 10px;
 }
 
 .sobre_ong_img:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-    /* Sombra sutil */
     transform: scale(1.06);
 }
 
-/* - - - - - - - - - - - - - Rodapé - - - - - - - - - - - - - */
+
+/* Rodapé */
+
 
 footer {
     display: flex;
@@ -265,7 +254,6 @@ footer {
     justify-content: center;
     flex-direction: column;
     background-color: var(--verde);
-
     margin-top: 150px;
     padding: 20px;
 }
@@ -318,52 +306,43 @@ footer .links div a {
     color: var(--offWhite);
 }
 
-@media (max-width:1024px) {
-
+@media (max-width: 1024px) {
     .titulo {
         font-size: 45px;
     }
 
     .titulo2 {
-        font-size: 40px;
+        font-size: 36px;
+        margin-left: 40px;
     }
-
 
     .card {
         background-color: var(--begeClaro);
         border-radius: 20px;
-        height: 400px;
+        height: auto;
         width: 300px;
-        border-radius: 20px 20px 20px 20px;
+    }
+
+
+    .card-bottom h2 {
+        font-size: 25px;
+        margin: 20px;
     }
 
     .card p {
         width: 260px;
         color: var(--azulEscuro);
         font-size: 15px;
-        margin: 0px
+        margin: 0;
     }
 
     .card img {
-        border-radius: 20px 20px 0px 0px;
+        border-radius: 20px 20px 0 0;
         width: 100%;
     }
 
     .titulo-card {
         font-size: 28px;
-    }
-
-    .card-bottom {
-
-        background-color: var(--bege);
-        width: 100%;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 0px 0px 20px 20px;
-        transition: all 300ms ease;
-        color: var(--azulEscuro);
     }
 
     .card_icons {
@@ -376,13 +355,12 @@ footer .links div a {
         font-size: 14px;
     }
 
-    .local,
+    .local {
+        padding-left: 15px;
+    }
+
     .data {
-        background-size: 20px 20px;
-        background-repeat: no-repeat;
-        background-position: left center;
-        padding-left: 20px;
-        color: rgb(130, 130, 130);
+        padding-left: 1px;
     }
 
     footer .logo {
@@ -397,29 +375,23 @@ footer .links div a {
         font-size: 35px;
         text-align: center;
     }
+
     footer .links div a {
         font-size: 20px;
     }
-
-
 }
 
-@media (max-width:768px) {
-
-    .input-pesquisa{
-        color: var(--verdeClaro);
+@media (max-width: 768px) {
+    .input-pesquisa {
         font-size: 18px;
         text-align: start;
         width: 400px;
         height: 50px;
-        border: 0px;
-        border-radius: 8px;
-        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.09);
         padding-left: 48px;
     }
 
-    .pesquisa{
-        margin-top: 0px;
+    .pesquisa {
+        margin-top: 0;
     }
 
     .titulo {
@@ -434,22 +406,20 @@ footer .links div a {
     }
 
     .card {
-        background-color: var(--begeClaro);
-        border-radius: 20px;
         height: auto;
         max-width: 230px;
-        border-radius: 10px 10px 10px 10px;
+        border-radius: 10px;
     }
 
     .card p {
         width: 200px;
         color: var(--azulEscuro);
         font-size: 12px;
-        margin: 5px
+        margin: 5px;
     }
 
     .card img {
-        border-radius: 10px 10px 0px 0px;
+        border-radius: 10px 10px 0 0;
         width: 100%;
     }
 
@@ -461,58 +431,59 @@ footer .links div a {
         border-radius: 0px 0px 10px 10px;
         width: 100%;
         height: 100%;
+
     }
 
     .card-bottom h2 {
-        font-size: 20px;
-        margin: 14px 0px 14px 0px;
+        font-size: 18px;
+        margin: 15px;
     }
 
     .card_icons {
         width: 80%;
-        margin: 2px auto;
+        margin: 0px auto;
     }
 
     .card_icons p {
         width: 80%;
         font-size: 10px;
+
     }
 
-    .local,
+    .local {
+        padding-left: 15px;
+    }
+
     .data {
-        background-size: 18px 18px;
-        background-repeat: no-repeat;
-        background-position: left center;
-        padding-left: 20px;
-        color: rgb(130, 130, 130);
+        padding-left: 12px;
     }
 
-     /* - - - - - - - - - - - - - - - - - - - - - - - - FOOTER - - - - - - - - - - - - - - - - - - - - - - - - */ 
-
-
-     footer {            
+    footer {
         margin-top: 80px;
         padding: 15px;
     }
+
     footer .logo {
         width: 80%;
         padding-top: 40px;
         margin-top: 40px;
         gap: 10px;
     }
+
     footer .logo p {
         font-size: 30px;
     }
-    .link_title{
+
+    .link_title {
         font-weight: 600;
         font-size: 20px;
         color: var(--offWhite);
     }
-    footer .links div a {
-            font-size: 20px;
-            font-family: 'Montserrat-Light';
-            text-decoration: none;
-            color: var(--offWhite);
-    }
 
+    footer .links div a {
+        font-size: 20px;
+        font-family: 'Montserrat-Light';
+        text-decoration: none;
+        color: var(--offWhite);
+    }
 }

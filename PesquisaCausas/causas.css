@@ -134,6 +134,7 @@ select option{
 .cards{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .card{
@@ -300,7 +301,8 @@ footer .links div a{
     }
 
     .titulo2 {
-        font-size: 40px;
+        font-size: 36px;
+        margin-left: 40px;
     }
 
 
@@ -382,6 +384,30 @@ footer .links div a{
 }
 
 @media (max-width:768px) {
+
+    header main{
+        padding: 5px 30px;
+        height: 110px;
+    }
+    header nav{
+        gap: 30px;
+    }
+    header nav a{
+        font-size: 18px;
+    }
+    header p{
+        font-size: 18px;
+    }
+
+    header img{
+        width: 100px;
+    }
+
+    header .foto{
+        width: 70px;
+    }
+
+    /* - - - - - - - - - - - - - - - - - - - - - - - - HEADER - - - - - - - - - - - - - - - - - - - - - - - - */ 
 
     .input-pesquisa{
         color: var(--verdeClaro);
