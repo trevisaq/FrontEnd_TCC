@@ -180,7 +180,7 @@ select option {
 
 .card img {
     border-radius: 20px 20px 0 0;
-    width: 400px;
+    width: 100%;
 }
 
 .titulo-card {
@@ -305,6 +305,59 @@ footer .links div a {
     text-decoration: none;
     color: var(--offWhite);
 }
+
+@media (max-width: 1250px) {
+    .titulo2{
+        margin: 40px
+    }
+
+    .card{
+        background-color: var(--begeClaro);
+        border-radius: 20px;
+        height: auto;
+        width: 350px;
+    }
+
+    .titulo-card{
+        font-size: 30px;
+    }
+    
+    .card-bottom h2 {
+        font-size: 25px;
+        margin: 20px;
+    }
+
+}
+
+@media (max-width: 1180px) {
+    .titulo2{
+        margin: 40px
+    }
+
+    .card{
+        background-color: var(--begeClaro);
+        border-radius: 20px;
+        height: auto;
+        width: 330px;
+    }
+
+    .card p{
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .titulo-card{
+        font-size: 30px;
+    }
+    
+    .card-bottom h2 {
+        font-size: 25px;
+        margin: 20px;
+    }
+
+}
+
+
 
 @media (max-width: 1024px) {
     .titulo {
