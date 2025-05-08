@@ -64,49 +64,49 @@ header .slogan {
 
 .titulo2 {
     font-size: 3vh;
-    /* color: var(--azulEscuro); */
 }
 
-.estatisticas{
+.estatisticas {
     margin: 4vh 0 8vh 0;
     background-color: var(--begeClaro);
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    .titulo{
+    .titulo {
         margin-top: 3vh;
     }
 }
 
-.divisoria{
+.divisoria {
     user-select: none;
     margin: 5vh;
     border-radius: 0.3vh;
     width: 88%;
     display: flex;
     justify-content: center;
-    padding:1vh;
+    padding: 1vh;
     color: var(--begeClaro);
 }
 
-.doacoes{
+.doacoes {
     margin: 1vh;
     display: flex;
     justify-content: space-between;
     width: 85%;
     color: var(--azulEscuro);
 
-    b{
+    b {
         color: var(--verdeNeon);
     }
 
-    h1{
+    h1 {
         font-size: 2.7vh;
     }
 }
 
-.doadores, .info-doadores{
+.doadores,
+.info-doadores {
     margin: 0.8vh;
     width: 85%;
     display: flex;
@@ -115,7 +115,7 @@ header .slogan {
     border-bottom: 1px solid #ccc;
     padding: 1vh 0 1vh 0;
 
-    p{
+    p {
         color: var(--azulEscuro);
         opacity: 60%;
 
@@ -123,27 +123,61 @@ header .slogan {
     }
 }
 
-.button{
-    width: 90%;
+table {
+    color: var(--azulEscuro);
+    opacity: 60%;
+    width: 85%;
+    border-collapse: collapse;
+    font-size: 2.5vh;
+    letter-spacing: 0.5px;
+}
+
+th,
+td {
+    text-align: justify;
+    border-bottom: 1px solid rgb(160 160 160);
+    padding: 2vh;
+
+
+}
+.first{
+    width: 34vw
+}
+
+th:first-of-type, td:first-of-type{
+    text-align: left;
+}
+th:last-of-type, td:last-of-type{
+    text-align: right;
+}
+
+tbody>tr:nth-of-type(even) {
+    background-color: rgb(237 238 242);
+}
+
+
+
+.button {
+    width: 85%;
     display: flex;
     flex-direction: row;
     justify-content: end;
     margin: 6vh 0 6vh 0;
 
-    button{
+    button {
         border: 0px;
         border-radius: 0.3vh;
         font-size: 2vh;
         color: var(--begeClaro);
         background-color: var(--azul);
         padding: 1vh;
-        width: 12vw;
+        width: 10vw;
         height: auto;
         transition: all 0.4s;
         cursor: pointer;
     }
 
-    button:hover{
+    button:hover {
         background-color: var(--verdeNeon);
     }
 }
@@ -208,4 +242,3 @@ footer .links div a {
     text-decoration: none;
     color: var(--offWhite);
 }
-
